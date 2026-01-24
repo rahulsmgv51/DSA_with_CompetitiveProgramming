@@ -1,5 +1,13 @@
 import java.util.Stack;
 
+public class RedundantBraces {
+  public static void main(String[] args) {
+    String str = "(a+(b*c))";
+    Solution solution = new Solution();
+    System.out.println("Has Redundant Braces : "+ solution.hasRedundantBraces(str));
+  } 
+}
+
 class Solution {
     public boolean hasRedundantBraces(String s) {
       Stack<Character> stack = new Stack<>();
