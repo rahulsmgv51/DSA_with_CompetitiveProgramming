@@ -1,3 +1,4 @@
+package HashMaps;
 import java.util.*;
 
 public class CountDistinctElement {
